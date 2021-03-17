@@ -18,14 +18,16 @@
 }
 
 .blog {
+  background-image: url('images/blog.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: black;
+  color: white;
   font-size: 100px;
 }
 
 .contact {
+  background-image: url('images/contact.jpeg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -34,17 +36,19 @@
 }
 
 .game {
+  background-image: url('images/game.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: black;
+  color: white;
   font-size: 100px;
 }
 
 .projects {
+  background-image: url('images/projects.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: black;
+  color: white;
   font-size: 100px;
 }
