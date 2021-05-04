@@ -7,8 +7,7 @@ video {
 }
 
 .hero-container {
-    /* background: url('images/img-home.jpg') center center/cover 
-    no-repeat; */
+    background: white;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -20,14 +19,14 @@ video {
 }
 
 .hero-container > h1 {
-    color: white;
+    color: black;
     font-size: 100px;
     margin-top: -100px;
 }
 
 .hero-container > p {
     margin-top: 8px;
-    color: white;
+    color: black;
     font-size: 32px;
     font-family: 'Trebuchet MS', 
     'Lucida Sans Unicode', 'Lucida Grande', 
