@@ -16,6 +16,9 @@ video {
     align-items: center;
     box-shadow: inset 0 0 0 1000ppx rgba(0, 0, 0, 0.2);
     object-fit: contain;
+    font-family: ccbiffbamboomoutline, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .hero-container > h1 {
@@ -28,9 +31,21 @@ video {
     margin-top: 8px;
     color: black;
     font-size: 32px;
-    font-family: ccbiffbamboomoutline, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+}
+
+ul#socials {
+    list-style-type: none;
+    }
+
+.socials-item {
+    display: inline-block;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.socials-item > a {
+    color: black;
 }
 
 @media screen and (max-width: 960px) {
