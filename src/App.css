@@ -106,9 +106,3 @@
 p {
   font-family: 'Times New Roman', Times, serif;
 }
-
-@media screen and (min-width: 1900px) {
-  .container {
-    width: 1870px;
-  }
-}
