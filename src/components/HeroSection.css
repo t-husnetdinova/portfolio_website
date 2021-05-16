@@ -1,8 +1,8 @@
 .hero-container {
-    background: url('../images/portfolio_octoboi.png')
+    background: url('../images/portfolio_octoboi_tilt.png')
     center center/cover no-repeat;
     background-size: contain;
-
+    margin-top: 50px;
     height: 120vh;
     width: 100%;
     display: flex;
@@ -54,7 +54,7 @@ ul#socials {
 
 @media screen and (max-width: 768px) {
     .hero-container {
-        background: url('../images/portfolio_octoboi.svg')
+        background: url('../images/portfolio_octoboi_tilt.png')
         center center/cover no-repeat;
         background-size: contain;
         margin-top: -100px;
