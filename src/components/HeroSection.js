@@ -5,9 +5,7 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <h1>Welcome!</h1>
-            <p>Make yourself at home :)</p>
-            <div>
+            
             <ul class="socials" id="socials">
                 <li class="socials-item">
                     <a href="https://github.com/t-husnetdinova" >
@@ -26,8 +24,6 @@ function HeroSection() {
                 </li>
                 </ul>
             </div>
-
-        </div>
     )
 }
 
