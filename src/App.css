@@ -8,19 +8,23 @@
 }
 
 .card,
-.container-body {
-  margin-top: 45px;
-  width: 80%;
-}
-
-.card,
 .card-header,
 .card-body {
   font-family: 'Times New Roman', Times, serif;
 }
 
 .resume {
-  padding-left: 20px;
+  padding-left: 15px;
+}
+
+.portfolio-card {
+  width: 70%;
+  margin-top: 45px;
+}
+
+.blog-card {
+  width: 75%;
+  padding-top: 45px;
 }
 
 .home,
@@ -67,4 +71,38 @@
   background-repeat: no-repeat;
   color: white;
   font-size: 100px;
+}
+
+.resume {
+  margin: 20px;
+}
+
+/* feature section */
+.feature {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature__item {
+  max-width: calc(33% - 20px);
+  margin: 0 20px 0 0;
+}
+
+.feature__item .section__title {
+  margin-bottom: 0;
+  font-family: ccbiffbamboomoutline, sans-serif;
+}
+
+.feature__item p {
+  margin-top: 0.5rem;
+}
+.title,
+.card-title {
+  padding-top: 15px;
+  text-align: center;
+  font-family: ccbiffbamboomoutline, sans-serif;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
 }

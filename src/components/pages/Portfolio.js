@@ -6,7 +6,7 @@ function Portfolio() {
         <div>
             <div class="row">
                 <div class="col">
-                    <div class="card mx-auto mb-3">
+                    <div class="card portfolio-card mx-auto mb-3">
                         <img class="card-img-top" src="../images/grandma.jpg"></img>
                             <div class="card-body">
                                 <h5 class="card-title">Project Name</h5>
