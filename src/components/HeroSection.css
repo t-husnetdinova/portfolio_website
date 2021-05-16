@@ -1,6 +1,8 @@
 .hero-container {
     background: url('../images/portfolio_octoboi.png')
     center center/cover no-repeat;
+    background-size: contain;
+
     height: 120vh;
     width: 100%;
     display: flex;
@@ -30,7 +32,6 @@
 
 ul#socials {
     list-style-type: none;
-    margin-left: 900px;
     }
 
 .socials-item {
@@ -38,7 +39,6 @@ ul#socials {
     padding: 20px;
     width: 90px;
     height: 100px;
-    padding-bottom: 700px;
 }
 
 .socials-item > a {
@@ -54,11 +54,11 @@ ul#socials {
 
 @media screen and (max-width: 768px) {
     .hero-container {
-        margin-top: -150px;
-        margin-bottom: -150px;
-        background: url('../images/portfolio_octoboi.png')
+        background: url('../images/portfolio_octoboi.svg')
         center center/cover no-repeat;
         background-size: contain;
+        margin-top: -100px;
+        margin-bottom: -100px;
     }
     .hero-container > h1 {
        font-size: 50px;
@@ -71,11 +71,7 @@ ul#socials {
         display: block;
         text-decoration: none;
     }
-    .socials-item {
-        display: inline-block;
-        padding: 20px;
-        width: 90px;
-        height: 100px;
-        padding-top: 430px;
+    .hero-container > .socials-item {
+        position: absolute;
     }
 }
