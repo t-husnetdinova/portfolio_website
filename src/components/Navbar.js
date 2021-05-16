@@ -12,7 +12,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/' className='navbar-logo link' onClick={closeMobileMenu} >
             Tammy Husnetdinova
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -22,14 +22,14 @@ function Navbar() {
           <li className='nav-item'>
               <Link
                 to='/about'
-                className='nav-links'
+                className='nav-links link'
                 onClick={closeMobileMenu}>
                 About
               </Link>
             </li>
             <li className='nav-item'>
               <Link to='/portfolio' 
-              className='nav-links' 
+              className='nav-links link' 
               onClick={closeMobileMenu}>
                 Portfolio
               </Link>
@@ -37,7 +37,7 @@ function Navbar() {
             <li className='nav-item'>
               <Link
                 to='/blog'
-                className='nav-links'
+                className='nav-links link'
                 onClick={closeMobileMenu}>
                 Blog
               </Link>
@@ -45,7 +45,7 @@ function Navbar() {
             <li className='nav-item'>
               <Link
                 to='/game'
-                className='nav-links'
+                className='nav-links link'
                 onClick={closeMobileMenu}>
                 Game?
               </Link>

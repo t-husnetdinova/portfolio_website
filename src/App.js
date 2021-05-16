@@ -7,6 +7,7 @@ import About from './components/pages/About';
 import Portfolio from './components/pages/Portfolio';
 import Blog from './components/pages/Blog';
 import Game from './components/pages/Game';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

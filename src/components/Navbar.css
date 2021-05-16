@@ -14,12 +14,13 @@
   align-items: center;
   height: 80px;
   max-width: 1500px;
+  font-family: ccbiffbamboomoutline, sans-serif;
 }
 
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
+  margin-left: 75px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -148,4 +149,12 @@
     color: #242424;
     transition: 250ms;
   }
+}
+
+.link {
+  color: #FFF;
+}
+.link:hover {
+   color: #FFF;
+   text-decoration: none;
 }
